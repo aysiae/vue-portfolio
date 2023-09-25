@@ -7,11 +7,14 @@ defineProps<{
 <template>
   <div class="welcome-banner">
     <div class="titles">
-      <div class="neon-border">
+      <div class="neons">
         <h1>Aysia Brown</h1>
         <h2>Software Engineer</h2>
       </div>
-      <button>Open To Work</button>
+      <div class="tagline">
+        <h3>Open For Work</h3>
+        <p>2 years of professional experience as a full stack developer</p>
+      </div>
     </div>
   </div>
 </template>
@@ -19,6 +22,7 @@ defineProps<{
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 .welcome-banner {
   background-color: black;
@@ -29,20 +33,14 @@ defineProps<{
   height: 700px;
   margin: 0;
   color: #fff;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     .titles {
       padding-top: 15em;
       padding-left: 5em;
-      text-shadow: 
-      0 0 10px #fff,
-      0 0 21px pink,
-      0 0 32px pink,
-      0 0 42px hotpink,
-      0 0 82px hotpink,
-      0 0 92px hotpink,
-      0 0 102px hotpink,
-      0 0 112px hotpink;
+      display: flex;
+      justify-content: space-between;
 
-      .neon-border {
+      .neons {
         border: #fff 5px solid;
         border-radius: 25px;
         padding-bottom: 3em;
@@ -53,6 +51,21 @@ defineProps<{
               0 0 0.8rem hotpink,
               0 0 2.8rem hotpink,
               inset 0 0 1.3rem hotpink;
+
+          text-shadow: 
+            0 0 10px #fff,
+            0 0 21px pink,
+            0 0 32px pink,
+            0 0 42px hotpink,
+            0 0 82px hotpink,
+            0 0 92px hotpink,
+            0 0 102px hotpink,
+            0 0 112px hotpink;
+          }
+
+      .tagline {
+        margin-right: 5em;
+
       }
 
       h1 {
@@ -69,8 +82,20 @@ defineProps<{
         text-align: center;
         animation: flicker 5s infinite alternate;
       }
+
+      h3 {
+        font-family: 'Rock Salt', cursive;
+        font-size: 32px;
+        margin-bottom: 0px !important;
+      }
+
+      p {
+        font-family: 'Croissant One', cursive;
+        margin-top: 0px !important;
+      }
   }
 }
+
 
 @keyframes flicker {
     
