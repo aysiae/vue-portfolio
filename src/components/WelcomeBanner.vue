@@ -13,7 +13,12 @@ defineProps<{
       </div>
       <div class="tagline">
         <h3>Open For Work</h3>
-        <p>2 years of professional experience as a full stack developer</p>
+        <p>2 years of professional experience as a full stack developer.</p>
+        <button>About Me</button>
+        <button>Resume</button>
+        <button>GitHub</button>
+        <button>LinkedIn</button>
+        <button>Projects</button>
       </div>
     </div>
   </div>
@@ -23,6 +28,7 @@ defineProps<{
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .welcome-banner {
   background-color: black;
@@ -30,12 +36,12 @@ defineProps<{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 600px;
   margin: 0;
   color: #fff;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     .titles {
-      padding-top: 15em;
+      padding-top: 10em;
       padding-left: 5em;
       display: flex;
       justify-content: space-between;
@@ -66,6 +72,14 @@ defineProps<{
       .tagline {
         margin-right: 5em;
 
+        button {
+          background-color: hotpink;
+          padding: 1em;
+          color: #fff;
+          border: none;
+          font-family: 'Josefin Sans', sans-serif;
+        }
+
       }
 
       h1 {
@@ -90,7 +104,8 @@ defineProps<{
       }
 
       p {
-        font-family: 'Croissant One', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
         margin-top: 0px !important;
       }
   }
