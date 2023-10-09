@@ -11,10 +11,10 @@
       <div class="tagline">
         <h3>Open For Work</h3>
         <p>2 years of professional experience as a full stack developer.</p>
-        <button>About Me</button>
-        <button>Resume</button>
-        <button>GitHub</button>
-        <button>LinkedIn</button>
+        <a href='#about'><button>About Me</button></a>
+        <a href='#resume'><button>Resume</button></a>
+        <a href='https://www.linkedin.com/in/aysiaelise/'><button>LinkedIn</button></a>
+        <a href="https://github.com/aysiae"><button>GitHub</button></a>
         <button>Projects</button>
       </div>
     </div>
@@ -41,7 +41,6 @@
       padding-top: 10em;
       padding-left: 5em;
       display: flex;
-      justify-content: space-between;
 
       .neons {
         border: #fff 5px solid;
@@ -67,7 +66,7 @@
           }
 
       .tagline {
-        margin-right: 5em;
+        margin-left: 5em;
 
         button {
           background-color: hotpink;
