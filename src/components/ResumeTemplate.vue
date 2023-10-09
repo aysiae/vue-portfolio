@@ -1,5 +1,5 @@
 <template>
-    <div class="resume">
+    <div class="resume" id="resume">
         <div class="resume-top">
             <div class="education-container">
             <h2>Education</h2>
@@ -31,11 +31,11 @@
         <div class="exp">
             <h2>Experience:</h2>
             <h3>Software Engineer @ Slalom Build | June 2021 - September 2023</h3>
-            <p>Working at Slalom Build afforded me the experience to work within tech consulting in a space that was conducive to learning and growth. I was pivotable amongst diverse teams of engineers to create seamless experiences for clients.</p>
+            <p>Working at Slalom Build afforded me the experience to work within tech consulting in a space that was conducive to learning and growth. I was pivotable amongst diverse teams of engineers to create seamless experiences for clients. We followed the Agile development cycle to stay ahead of velocity, while meeting deadlines and making ideas reality.</p>
             <ul>
-                <li><strong>Retail Client (React, Typescript, NodeJS, AWS):</strong> I had the opportunity to join the team as a Front End leader in React, where I was able to showcase my deep knowledge of the Front End by being a subject matter expert to newer developers and aiding them in expanding their wheelhouse with React. We were developing an internal CRM tool where I worked closely with our back-end lead to seamlessly switch the application's search from DynamoDB to ElasticSearch. </li>
-                <li><strong>Retail Client (Vue, Pinnia, NuxtJS, TypeScript, NodeJS):</strong> Blah Blah Blah</li>
-                <li><strong>Financial Client (React, JavaScript, NodeJS, Azure):</strong> Blah blah blah blah</li>    
+                <li><strong>Retail Client (React, Typescript, NodeJS, AWS):</strong> Joined the team as a Front End leader in React, where I was able to showcase my deep knowledge of the Front End by being a subject matter expert to newer developers and aiding them in expanding their wheelhouse with React. We were developing an internal CRM tool where I worked closely with our back-end lead to seamlessly switch the application's search from DynamoDB to ElasticSearch. </li>
+                <li><strong>Retail Client (Vue, Pinnia, NuxtJS, TypeScript, NodeJS):</strong> During this engagement, I was apart of a diverse team of engineers working to make an E-Commerce platform for an independent retailer. I picked up a functional understanding of Vue and Pinnia to create scalable components to be used throughout the e-commerce platform, as well utilizing clean state management for the cart/checkout process. I was responsible for handling API calls to the backend to add/remove/update our cart on the Front End. </li>
+                <li><strong>Financial Client (React, JavaScript, NodeJS, Azure):</strong> Worked togehter with an small close knit team to develop and internal search tool for their database; worked with implementing the Front End in React and using Material UI to closely match UX designs. Our backend was powered by NodeJS and Azure where we also worked to make Microsoft Single Sign On functional.</li>    
             </ul>
         </div>
     </div>
@@ -76,6 +76,7 @@
 
             .tech {
                 margin-left: 2em;
+                max-width: 700px;
             }
         }
 

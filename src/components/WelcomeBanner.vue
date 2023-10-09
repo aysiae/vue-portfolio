@@ -12,7 +12,7 @@
         <h3>Open For Work</h3>
         <p>2 years of professional experience as a full stack developer.</p>
         <a href='#about'><button>About Me</button></a>
-        <button>Resume</button>
+        <a href='#resume'><button>Resume</button></a>
         <a href='https://www.linkedin.com/in/aysiaelise/'><button>LinkedIn</button></a>
         <a href="https://github.com/aysiae"><button>GitHub</button></a>
         <button>Projects</button>
